@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Untitled Document</title>
+    
+	<link href="estilo/estilo.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+	<script type="text/javascript" src="javascript/javascript.js"></script>
+	<script src="javascript/cufon-yui.js"></script>
+	<script type="text/javascript" src="javascript/SamsungLives_Book_400.font.js"></script>
+	<!--<script type="text/javascript">
+		// <![CDATA[
+		Cufon.replace('h1');
+		
+		Cufon.replace('.re-container-menu');
+		// ]]>
+	</script>-->
+	</head>
+	<body>
+    <div id="master">
+    <div class="left">
+      <div id="formulario">
+        <form id="form" class="name" >
+          <ul>
+             <h2 class="titulo">Quanto seu AMBIENTE É exposto ao sol?</h2>
+            <li  class="seleciona" >
+            
+                <label>
+                   <input  id="sol" type="radio" name="sex" value="1" checked>
+                   <img src="imagens/muitoSOl.png" width="134" height="65">
+                </label>
+
+                 <label>
+                   <input id="sol" type="radio" name="sex" value="2" >
+                   <img src="imagens/poucoSol.png" width="105" height="38">
+                 </label>
+
+            </li>
+            <li class="tamanhoLugar">
+              <label><span>Qual o tamanho do Lugar?</span></label>
+              <input type="text" id="metro" size="10"  />
+             <label class="metros">  m&sup2; </label></li>
+            <li class="qntPessoas">
+              <label><span>Quantas Pessoas?</span></label>
+              <input type="text" id="pessoas"  size="10" />
+             </li>
+
+            <li class="aparelhoEletronico">
+              <label><span>Quantos aparelhos Eletr&#212;nicos?</span></label>
+              <input type="text" id="equipamento" size="10"  />
+            </li>
+            <li class="entrada de ar">
+              <label><span>Quantas Entradas de ar?</span></label>
+              <input type="text" id="abertura" size="10" />
+              </li>
+          </ul>
+        </form>
+      </div>
+     
+
+      <div id="fim-barra">
+        <div id="botao"> <a href="#" onClick="calcular()" NAME="botão"></a> <br />
+        </div> 
+       
+        <div id="resultado"><span class="resultado">Resultado</span>
+          <div id="total">   </div>
+
+        </div>
+        <span class="resultado2">BTus/H</span>
+    
+      </div>
+ </div>
+      <div class="right">
+      <div id="resul">
+        <div id="opcao"></div>
+        <div id="texto"> </div>
+        <div id="texto1"> </div>
+        <div id="texto2"> </div>
+      </div>
+      <div id="rodape"></div>
+      </div>
+    </div>
+    </div>
+    </div>
+   
+</body>
+</html>
